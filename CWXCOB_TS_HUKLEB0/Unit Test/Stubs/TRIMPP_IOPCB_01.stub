@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" dbdName="HUKLEB0" encoding="1047" id="Unit%20Test/Stubs/TRIMPP_IOPCB_01.stub" nextCalltoken="10004" pcbName="IOPCB" stubtype="IMS CBLTDLI" target="CBLTDLI" token="10000">
+  <stub:description>Created: 2020-okt-05 11:45:56</stub:description>
+  <stub:stubdata callToken="10001" id="0" name="GU">
+    <stub:interface>../Interfaces/TRIMPP_INPUT_MSG.interface#Unit%20Test/Interfaces/TRIMPP_INPUT_MSG.interface</stub:interface>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_GU.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_GU.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_GU.listructure#GU" id="arg0.GU">
+        <properties:properties>
+          <properties:property name="value" type="string">C7E44040</properties:property>
+          <properties:property name="beforeValue" type="string">C7E44040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB" id="arg1.IOPCB">
+        <properties:properties>
+          <properties:property name="value" type="string">C8E4D2D3C5C2F040120040400020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+          <properties:property name="beforeValue" type="string">C8E4D2D3C5C2F040120040400020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure#INPUT_MSG" id="arg2.INPUT_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">000F0002E3D9C9D4D7D74040F1F1F1</properties:property>
+          <properties:property name="beforeValue" type="string">000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata callToken="10002" id="1" name="ISRT">
+    <stub:interface>../Interfaces/TRIMPP_OUTPUT_MSG.interface#Unit%20Test/Interfaces/TRIMPP_OUTPUT_MSG.interface</stub:interface>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure#ISRT" id="arg0.ISRT">
+        <properties:properties>
+          <properties:property name="value" type="string">C9E2D9E3</properties:property>
+          <properties:property name="beforeValue" type="string">C9E2D9E3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB" id="arg1.IOPCB">
+        <properties:properties>
+          <properties:property name="value" type="string">C8E4D2D3C5C2F040120240400020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+          <properties:property name="beforeValue" type="string">C8E4D2D3C5C2F040120040400020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG" id="arg2.OUTPUT_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">01000000E3D9C9D4D7D74040F1F1F1C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E24040404040404040</properties:property>
+          <properties:property name="beforeValue" type="string">01000000E3D9C9D4D7D74040F1F1F1C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E24040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata callToken="10003" id="2" name="GU">
+    <stub:interface>../Interfaces/TRIMPP_INPUT_MSG.interface#Unit%20Test/Interfaces/TRIMPP_INPUT_MSG.interface</stub:interface>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_GU.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_GU.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_GU.listructure#GU" id="arg0.GU">
+        <properties:properties>
+          <properties:property name="value" type="string">C7E44040</properties:property>
+          <properties:property name="beforeValue" type="string">C7E44040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB" id="arg1.IOPCB">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040401000D8C30020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+          <properties:property name="beforeValue" type="string">C8E4D2D3C5C2F040120240400020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure#Unit%20Test/Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure#INPUT_MSG" id="arg2.INPUT_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">000F0002E3D9C9D4D7D74040F1F1F1</properties:property>
+          <properties:property name="beforeValue" type="string">000F0002E3D9C9D4D7D74040F1F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

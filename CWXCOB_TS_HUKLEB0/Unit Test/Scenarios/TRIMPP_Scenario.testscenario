@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.2.v20200803-0337_141?>
+<!--Topaz for Total Test 20.3.2.v20200803-0337_141 2020-okt-05 11:46:05-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/TRIMPP_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="TRIMPP" encoding="1047" entrypoint="DLITCBL" id="Unit%20Test/Scenarios/TRIMPP_Scenario.testscenario%23TRIMPPCase1" target="TRIMPP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.XE.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1276591093000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRIMPP.interface#Unit%20Test/Interfaces/TRIMPP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRIMPP_IOPCB.listructure#Unit%20Test/Structures/TRIMPP_IOPCB.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRIMPP_IOPCB.listructure#IOPCB" id="arg0.IOPCB">
+          <properties:properties>
+            <properties:property name="value" type="string">C8E4D2D3C5C2F040120040400020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+            <properties:property name="expectedValue" type="string">40404040404040401000D8C30020279F0545221F00000003E3D9C9D4D7D74040C8E4D2D3C5C2F040</properties:property>
+            <properties:property name="address" type="string">0005E070</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRIMPP_DBPCB.listructure#Unit%20Test/Structures/TRIMPP_DBPCB.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRIMPP_DBPCB.listructure#DBPCB" id="arg1.DBPCB">
+          <properties:properties>
+            <properties:property name="value" type="string">E7D7C9D4E2C4C2E3F0F04040C14040400005E0B0C8C4C1D4404040400000000000000001F1F1F14040</properties:property>
+            <properties:property name="expectedValue" type="string">E7D7C9D4E2C4C2E3F0F14040C14040400005E0B0E5C1D3C9C44040400000000300000001F1F1F14040</properties:property>
+            <properties:property name="address" type="string">0005E0E8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/TRIMPP_DBPCB_01.stub#Unit%20Test/Stubs/TRIMPP_DBPCB_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/TRIMPP_IOPCB_01.stub#Unit%20Test/Stubs/TRIMPP_IOPCB_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/TRIMPP_RETURN-CODE.listructure#Unit%20Test/Structures/TRIMPP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRIMPP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRIMPP</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
